@@ -1,0 +1,19 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 818H360V1078H122C55.7258 1078 2 1024.27 2 958V818Z" fill="#B90007"/>
+<rect x="360" y="818" width="360" height="260" fill="#A6030A"/>
+<path d="M720 818H1078V958C1078 1024.27 1024.27 1078 958 1078H720V818Z" fill="#B90007"/>
+<rect x="2" y="298" width="358" height="260" fill="#EB010A"/>
+<path d="M2 122C2 55.7258 55.7258 2 122 2H958C1024.27 2 1078 55.7258 1078 122V298H2V122Z" fill="url(#paint0_linear_272_64)"/>
+<rect x="248" y="90" width="585" height="120" rx="60" fill="white" fill-opacity="0.53"/>
+<rect x="360" y="298" width="360" height="260" fill="#CE0008"/>
+<rect x="720" y="298" width="358" height="260" fill="#B90007"/>
+<rect x="2" y="558" width="358" height="260" fill="#CE0008"/>
+<rect x="360" y="558" width="360" height="260" fill="#B90007"/>
+<rect x="720" y="558" width="358" height="260" fill="#A6030A"/>
+<defs>
+<linearGradient id="paint0_linear_272_64" x1="227" y1="-286.5" x2="846.341" y2="520.164" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E01E37"/>
+<stop offset="1" stop-color="#9D0208"/>
+</linearGradient>
+</defs>
+</svg>

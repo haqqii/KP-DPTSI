@@ -1,0 +1,32 @@
+<svg id="calendar-today" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.295" x2="0.5" y2="1.248" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="red"/>
+      <stop offset="1" stop-color="#ae0202"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4d4d4"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95" data-name="Group 95">
+    <path id="Union_163" data-name="Union 163" d="M0,302V80A80,80,0,0,1,80,0h920a80,80,0,0,1,80,80V302Z" fill="url(#linear-gradient)"/>
+    <path id="Union_164" data-name="Union 164" d="M80,778A80,80,0,0,1,0,698V0H1080V698a80,80,0,0,1-80,80Z" transform="translate(0 302)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_411" data-name="Rectangle 411" width="437" height="103" rx="51.5" transform="translate(322 100)" fill="url(#linear-gradient-2)"/>
+    <circle id="Ellipse_123" data-name="Ellipse 123" cx="90.5" cy="90.5" r="90.5" transform="translate(450 454)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_124" data-name="Ellipse 124" cx="90.5" cy="90.5" r="90.5" transform="translate(163 454)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_125" data-name="Ellipse 125" cx="90.5" cy="90.5" r="90.5" transform="translate(737 454)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_126" data-name="Ellipse 126" cx="90.5" cy="90.5" r="90.5" transform="translate(450 748)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_127" data-name="Ellipse 127" cx="90.5" cy="90.5" r="90.5" transform="translate(163 748)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_128" data-name="Ellipse 128" cx="90.5" cy="90.5" r="90.5" transform="translate(737 748)" fill="url(#linear-gradient-9)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

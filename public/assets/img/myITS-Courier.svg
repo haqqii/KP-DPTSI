@@ -1,0 +1,20 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M82 144C37.8172 144 2 179.817 2 224V728C2 772.183 37.8172 808 82 808H126.512C132.865 730.729 197.59 670 276.5 670C355.41 670 420.135 730.729 426.488 808H694V224C694 179.817 658.183 144 614 144H82Z" fill="url(#paint0_linear_172_457)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1010.14 362.873C1002.89 325.215 969.934 298 931.584 298H694V808H717.413C723.74 730.729 788.194 670 866.773 670C944.742 670 1008.8 729.79 1015.97 806.204C1057.39 797.289 1085.93 756.47 1077.54 712.873L1010.14 362.873Z" fill="url(#paint1_linear_172_457)"/>
+<path d="M742 359H927.826C944.569 359 958.968 370.858 962.177 387.291L983.855 498.291C988.076 519.905 971.525 540 949.503 540H742V359Z" fill="#1565C0"/>
+<rect x="742" y="586" width="71" height="28" rx="14" fill="#1565C0"/>
+<circle cx="276" cy="820" r="116" fill="#686868"/>
+<circle cx="276.5" cy="820.5" r="73.5" fill="#989898"/>
+<circle cx="867" cy="820" r="116" fill="#686868"/>
+<circle cx="867.5" cy="820.5" r="73.5" fill="#989898"/>
+<defs>
+<linearGradient id="paint0_linear_172_457" x1="412" y1="279.5" x2="275" y2="729.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1976D2"/>
+<stop offset="1" stop-color="#1565C0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_172_457" x1="854.328" y1="482" x2="886.459" y2="792.473" gradientUnits="userSpaceOnUse">
+<stop stop-color="#42A5F5"/>
+<stop offset="1" stop-color="#2196F3"/>
+</linearGradient>
+</defs>
+</svg>

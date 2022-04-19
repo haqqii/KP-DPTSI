@@ -1,0 +1,27 @@
+<svg id="events" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.402" y1="-0.882" x2="0.574" y2="1.583" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c89ff"/>
+      <stop offset="1" stop-color="#005ed6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.172" y1="-0.234" x2="0.751" y2="2.091" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1.122" x2="0.268" y2="-0.118" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9e9e9"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.32" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#676767"/>
+      <stop offset="1" stop-color="#434343"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_328" data-name="Group 328">
+    <path id="Union_163" data-name="Union 163" d="M10284-2350v-170a130,130,0,0,1,130-130h816a130,130,0,0,1,130,130v170Z" transform="translate(-10282 2652)" fill="url(#linear-gradient)"/>
+    <path id="Union_164" data-name="Union 164" d="M10414-1874a130,130,0,0,1-130-130v-646h1076v646a130,130,0,0,1-130,130Z" transform="translate(-10282 2952)" fill="url(#linear-gradient-2)"/>
+    <path id="Union_790" data-name="Union 790" d="M-11887.5-18784a51.5,51.5,0,0,1-51.5-51.5,51.5,51.5,0,0,1,51.5-51.5h334a51.5,51.5,0,0,1,51.5,51.5,51.5,51.5,0,0,1-51.5,51.5Z" transform="translate(12261 18987)" fill="url(#linear-gradient-3)"/>
+    <path id="Union_789" data-name="Union 789" d="M-11482.851-18315.443l-86.271-61.814a41.008,41.008,0,0,0-47.759,0l-86.271,61.814c-32.245,23.1-75.231-8.486-62.818-46.164l32.339-98.145a41,41,0,0,0-15.065-46.16l-84.053-60.223c-32.4-23.211-15.98-74.33,23.877-74.33h105.126a41,41,0,0,0,38.938-28.166l32.867-99.75c12.375-37.561,65.5-37.561,77.88,0l32.867,99.75a41,41,0,0,0,38.938,28.166h105.126c39.857,0,56.277,51.119,23.877,74.33l-84.053,60.223a41,41,0,0,0-15.065,46.16l32.34,98.145c9.483,28.787-13.374,54.02-39.069,54.02A40.427,40.427,0,0,1-11482.851-18315.443Z" transform="translate(12133 19211.109)" fill="url(#linear-gradient-4)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

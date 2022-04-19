@@ -1,0 +1,19 @@
+<svg id="app-gmail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.78" y1="0.114" x2="-0.259" y2="1.382" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f2ef"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_1134" data-name="Rectangle 1134" width="1080" height="1080" fill="none"/>
+  <g id="Group_267" data-name="Group 267">
+    <path id="Union_513" data-name="Union 513" d="M21470.4-7574.734a221.162,221.162,0,0,1-68.641-68.626C21353.211-7705.57,21319-7855.243,21319-8030s34.211-324.429,82.762-386.639a221.159,221.159,0,0,1,68.625-68.616c62.227-48.539,211.887-82.747,386.615-82.747,174.758,0,324.434,34.213,386.643,82.766a221.183,221.183,0,0,1,68.6,68.6c48.553,62.21,82.764,211.884,82.764,386.639s-34.211,324.428-82.764,386.639a221.176,221.176,0,0,1-68.611,68.607C22181.41-7526.207,22031.746-7492,21857-7492,21682.289-7492,21532.639-7526.2,21470.4-7574.734Z" transform="translate(-21317 8570)" fill="url(#linear-gradient)"/>
+    <g id="Gmail_icon__2020_" data-name="Gmail_icon_(2020)" transform="translate(188 272.959)">
+      <path id="Path_377" data-name="Path 377" d="M92.909,393.091h95.455V161.273L52,59V352.182a40.9,40.9,0,0,0,40.909,40.909" transform="translate(0 99.008)" fill="#4285f4"/>
+      <path id="Path_378" data-name="Path 378" d="M120,393.091h95.455a40.9,40.9,0,0,0,40.909-40.909V59L120,161.273" transform="translate(395.636 99.008)" fill="#34a853"/>
+      <path id="Path_379" data-name="Path 379" d="M120,83.008V260.281L256.364,158.008V103.463c0-50.591-57.75-79.432-98.182-49.091" transform="translate(395.636 0)" fill="#fbbc04"/>
+      <path id="Path_380" data-name="Path 380" d="M72,225.273V48L235.636,170.727,399.273,48V225.273L235.636,348" transform="translate(116.364 35.008)" fill="#ea4335"/>
+      <path id="Path_381" data-name="Path 381" d="M52,103.463v54.545L188.364,260.281V83.008L150.182,54.372C109.682,24.031,52,52.872,52,103.463" transform="translate(0 0)" fill="#c5221f"/>
+    </g>
+  </g>
+</svg>

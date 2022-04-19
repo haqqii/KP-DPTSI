@@ -1,0 +1,33 @@
+<svg id="app-azure" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.78" y1="0.114" x2="-0.259" y2="1.382" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f2ef"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-18.713" y1="1.674" x2="-19.201" y2="0.71" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#114a8b"/>
+      <stop offset="1" stop-color="#0669bc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-13.307" y1="1.225" x2="-13.388" y2="1.199" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.302"/>
+      <stop offset="0.071" stop-opacity="0.2"/>
+      <stop offset="0.321" stop-opacity="0.102"/>
+      <stop offset="0.623" stop-opacity="0.051"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-18.181" y1="1.702" x2="-17.672" y2="0.748" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ccbf4"/>
+      <stop offset="1" stop-color="#2892df"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_1134" data-name="Rectangle 1134" width="1080" height="1080" fill="none"/>
+  <g id="Group_271" data-name="Group 271">
+    <path id="Union_513" data-name="Union 513" d="M21470.4-7574.734a221.162,221.162,0,0,1-68.641-68.626C21353.211-7705.57,21319-7855.243,21319-8030s34.211-324.429,82.762-386.639a221.159,221.159,0,0,1,68.625-68.616c62.227-48.539,211.887-82.747,386.615-82.747,174.758,0,324.434,34.213,386.643,82.766a221.183,221.183,0,0,1,68.6,68.6c48.553,62.21,82.764,211.884,82.764,386.639s-34.211,324.428-82.764,386.639a221.176,221.176,0,0,1-68.611,68.607C22181.41-7526.207,22031.746-7492,21857-7492,21682.289-7492,21532.639-7526.2,21470.4-7574.734Z" transform="translate(-21317 8570)" fill="url(#linear-gradient)"/>
+    <g id="azure" transform="translate(235.996 250.777)">
+      <path id="Path_361" data-name="Path 361" d="M204.027,6.55H381.572L197.263,552.639a28.311,28.311,0,0,1-26.818,19.256H32.271A28.263,28.263,0,0,1,5.487,534.6L177.2,25.806A28.311,28.311,0,0,1,204.027,6.543Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_362" data-name="Path 362" d="M322.561,60.261H41.017a13.031,13.031,0,0,0-8.9,22.563L213.033,251.682a28.441,28.441,0,0,0,19.406,7.644H391.86Z" transform="translate(139.465 312.569)" fill="#0078d4"/>
+      <path id="Path_363" data-name="Path 363" d="M204,6.544A28.079,28.079,0,0,0,177.11,26.175L5.667,534.127a28.229,28.229,0,0,0,26.647,37.762h141.74a30.3,30.3,0,0,0,23.252-19.774L231.5,451.355,353.619,565.262a28.891,28.891,0,0,0,18.179,6.628H530.625l-69.66-199.065-203.068.048L382.182,6.544Z" transform="translate(0.031 0.006)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_364" data-name="Path 364" d="M258.3,25.773A28.264,28.264,0,0,0,231.52,6.544H33.648A28.27,28.27,0,0,1,60.431,25.771L232.154,534.584A28.27,28.27,0,0,1,205.37,571.9H403.249a28.27,28.27,0,0,0,26.777-37.312Z" transform="translate(172.493 0.006)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

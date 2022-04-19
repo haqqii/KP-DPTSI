@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.328" y1="0.82" x2="0.822" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e92f5"/>
+      <stop offset="1" stop-color="#25b3fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9e9e9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4b4b4"/>
+      <stop offset="1" stop-color="#676767"/>
+    </linearGradient>
+  </defs>
+  <g id="info" transform="translate(0)">
+    <g id="Group_48" data-name="Group 48">
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="1080" height="1080" rx="540" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+      <rect id="Rectangle_216" data-name="Rectangle 216" width="777" height="777" rx="388.5" transform="translate(152 151)" fill="url(#linear-gradient-2)"/>
+      <path id="Union_57" data-name="Union 57" d="M3164,2837V2629a83,83,0,0,1,166,0v208a83,83,0,0,1-166,0Zm0-434a83,83,0,1,1,83,83A83,83,0,0,1,3164,2403Z" transform="translate(-2707 -2080)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>
