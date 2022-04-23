@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<<<<<<< HEAD
     
+=======
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
     @extends('partial.head')
     <style>
       .crop-text-1 {
@@ -16,6 +19,11 @@
   </head>
   <body class="mn-ht-100v d-flex flex-column">
     @extends('partial.navbar')
+<<<<<<< HEAD
+=======
+    @extends('partial.mahasiswa-menu-sidebar')
+    @extends('partial.mahasiswa-menu-sidebar-monitor')
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
     
     <div class="content pd-0" style="position: relative">
       <!-- Konten dihapus -->
@@ -27,8 +35,13 @@
           <div class="row row-sm">
             <div class="col-12 mg-b-20 mg-sm-b-20 mg-lg-b-30">
               <div class="card bd-0" style="background-image: url(../../assets/img/coverberanda.svg); background-position: bottom center; background-size:cover;">
+<<<<<<< HEAD
                 <div class="card-body ht-350 pos-relative align-items-center d-flex">
                   <div class="pd-10 justify-content-start align-items-center ">
+=======
+                <div class="card-body ht-350 pos-relative">
+                  <div class="pd-10 pd-md-35 justify-content-start align-items-center ">
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                     <p class="tx-poppins tx-medium tx-white tx-40 tx-md-35 mg-b-10 ">Selamat datang, Rachmita</p>
                     <p class="tx-white tx-md-20">Semoga Harimu Menyenangkan di tempat kerja</p>
                   </div>
@@ -41,12 +54,18 @@
               </div>
             </div>
             <div class="col-12 mg-b-20 mg-sm-b-20 mg-lg-b-30">
+<<<<<<< HEAD
               <div class="card pd-x-30 pd-y-10 bd-0 mg-b-10 mg-md-b-10">
                 <div class="card-header bd-0 pd-10 pd-md-y-20 p-20 justify-content-start align-items-center">
+=======
+              <div class="card bd-0 mg-b-10 mg-md-b-10">
+                <div class="card-header bd-0 pd-md-y-20 justify-content-start align-items-center">
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                   <h5 class="tx-poppins tx-medium mg-b-0">Statistik Mingguan Kasus Covid-19 Dosen dan Tendik ITS</h5>
                   <p class="tx-poppins fst-italic text tx-13 tx-md-0">Data hanya untuk kepentingan internal dan tidak untuk disebarluaskan di luar lingkungan ITS</p>
                 </div>
                 <div class="row">
+<<<<<<< HEAD
                   <div class="col-xl-6">
                     <div class="row">
                       <div class="col-xl-6 col-sm-6 col-12 mb-4 mg-b-10">
@@ -162,6 +181,115 @@
                         </a>  
                       </div> 
                     </div>   
+=======
+                  <div class="col-xl-3 col-sm-6 col-12 mb-4 mg-b-10">
+                    <a href="https://google.com" target="_blank">
+                      <div class="card ">
+                        <div class="card-body bg-custom">
+                          <div class="d-flex justify-content-between px-md-1">
+                            <div class="media d-flex align-items-center">
+                            <img src="../../assets/img/dirawat.svg" class="wd-60 mg-r-25" alt="">
+                              <div class="media-body crop-text-1">
+                                <p class="tx-poppins tx-20 text-center tx-color-01 mg-b-0 crop-text-1">Dirawat</p>
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
+                                <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
+                              </div>
+                           </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div> 
+                  <div class="col-xl-3 col-sm-6 col-12 mb-4 mg-b-10">
+                    <a href="https://google.com" target="_blank">
+                      <div class="card ">
+                        <div class="card-body bg-custom">
+                          <div class="d-flex justify-content-between px-md-1">
+                            <div class="media d-flex align-items-center">
+                            <img src="../../assets/img/isoman.svg" class="wd-60 mg-r-25" alt="">
+                              <div class="media-body crop-text-1">
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">Isolasi Mandiri</p>
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">17</p>
+                                <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
+                              </div>
+                           </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div> 
+                  <div class="col-xl-3 col-sm-6 col-12 mb-4 mg-b-10">
+                    <a href="https://google.com" target="_blank">
+                      <div class="card ">
+                        <div class="card-body bg-custom ">
+                          <div class="d-flex justify-content-between px-md-1">
+                            <div class="media d-flex align-items-center">
+                            <img src="../../assets/img/sembuh.svg" class="wd-60 mg-r-25" alt="">
+                              <div class="media-body crop-text-1">
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">Sembuh</p>
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">290</p>
+                                <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
+                              </div>
+                           </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div>
+                  <div class="col-xl-3 col-sm-6 col-12 mb-4 mg-b-10">
+                    <a href="https://google.com" target="_blank">
+                      <div class="card ">
+                        <div class="card-body bg-custom">
+                          <div class="d-flex justify-content-between px-md-1">
+                            <div class="media d-flex align-items-center">
+                            <img src="../../assets/img/wafat.svg" class="wd-60 mg-r-25" alt="">
+                              <div class="media-body crop-text-1">
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">Wafat</p>
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">11</p>
+                                <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
+                              </div>
+                           </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div>
+                  <div class="col-xl-3 col-sm-6 col-12 mb-4 mg-b-10">
+                    <a href="https://google.com" target="_blank">
+                      <div class="card ">
+                        <div class="card-body bg-custom">
+                          <div class="d-flex justify-content-between px-md-1">
+                            <div class="media d-flex align-items-center">
+                            <img src="../../assets/img/Konfirmasi Aktif.svg" class="wd-60 mg-r-25" alt="">
+                              <div class="media-body crop-text-1">
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">Konfirmasi Aktif</p>
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">17</p>
+                                <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
+                              </div>
+                           </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div>
+                  <div class="col-xl-3 col-sm-6 col-12 mb-4 mg-b-10">
+                    <a href="https://google.com" target="_blank">
+                      <div class="card ">
+                        <div class="card-body bg-custom">
+                          <div class="d-flex justify-content-between px-md-1">
+                            <div class="media d-flex align-items-center">
+                            <img src="../../assets/img/positif.svg" class="wd-60 mg-r-25" alt="">
+                              <div class="media-body crop-text-1">
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">Akumulasi Positif</p>
+                                <p class="tx-poppins tx-15 text-center tx-color-01 mg-b-0 crop-text-1">318</p>
+                                <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
+                              </div>
+                           </div>  
+                          </div>
+                        </div>
+                      </div>
+                    </a>  
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                   </div>    
                 </div>
                   <blockquote class="blockquote text-right tx-poppins fst-italic text tx-13 tx-md-0">

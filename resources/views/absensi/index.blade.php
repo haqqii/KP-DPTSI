@@ -95,7 +95,11 @@
               <div class="card bd-0">
                 <div class="row">
                   <div class="col-md-6 px-3">
+<<<<<<< HEAD
                     <div class="card-header bd-0 pd-30 justify-content-space-between align-items-center">
+=======
+                    <div class="card-header bd-0 pd-t-20 pd-b-10 justify-content-start align-items-center">
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                       <h7 class="tx-poppins tx-medium mg-b-2">Hari ini</h7>
                       <h3 class="tx-poppins tx-medium mg-b-2">Senin, 07 April 2022</h3>
                       <h7 class="tx-poppins tx-medium mg-b-2 ">Pukul 07.00</h7>
@@ -119,17 +123,27 @@
                     </div>
                   </div>
                     <div class="col-sm-6 px-20 pd-t-20 mg-b-10 bd-0">
+<<<<<<< HEAD
                       <iframe style=" width: 500px; height: 300px; margin-left:20px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
                       <div class="d-flex justify-content-start ">
                         <a href="https://google.com" style="white-space: nowrap;" class="btn btn-outline-primary tx-medium mg-l-20"> <ion-icon name="navigate"></ion-icon> Perbaiki Lokasi Otomatis</a>   
                         <p class="tx-poppins tx-9 mg-r-40 mg-l-40 mg-b-0 text-end">Berdasarkan lokasi pada peta, Anda terlacak sedang berda di luar kantor. Apabila pelacakan tidak akurat, silahkan klik tombol Perbaiki Lokasi Otomatis.</p>
                       </div>
+=======
+                      <iframe style=" width: 550px; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                        <a href="https://google.com" class="btn btn-outline-primary tx-medium"> <ion-icon name="navigate"></ion-icon> Perbaiki Lokasi Otomatis</a>   
+                        <p class="tx-poppins tx-13 mg-b-0 text-end">Berdasarkan lokasi pada peta, Anda terlacak sedang berda di luar kantor. Apabila pelacakan tidak akurat, silahkan klik tombol Perbaiki Lokasi Otomatis.</p>
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                     </div>  
                   <br>
                 </div>      
               </div>
             </div>
+<<<<<<< HEAD
             <p class="tx-poppins mg-b-0">Klik <a href="{{ url('/rekapan') }}" class="link-primary">disini</a> untuk melihat daftar lengkap rekap absen harian Anda.</p>
+=======
+            <p class="tx-poppins mg-b-0">Klik <a href="{{ url('/rekapan') }}" class="link-disini">disini</a> untuk melihat daftar lengkap rekap absen harian Anda.</p>
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
             
           </div><!-- row -->
         </div><!-- container -->

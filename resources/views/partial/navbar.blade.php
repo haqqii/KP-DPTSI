@@ -12,11 +12,16 @@
                 <div class="avatar avatar-sm"><img src="https://yt3.ggpht.com/a/AATXAJz2FUkWeS8_N25NHO_TJ4n7ivKlEX7eE2mbiWP9tQ=s900-c-k-c0x00ffffff-no-rj" class="rounded-circle" alt=""></div>
             </a>
             <div class="dropdown-menu dropdown-menu-right allow-focus shadow rounded-its-10">
+<<<<<<< HEAD
                 <a href="../profil" class="dropdown-item-its tx-poppins tx-medium" style="padding-top: 20px !important; padding-bottom: 20px !important;">
+=======
+                <a href="../profil" class="dropdown-item-its tx-poppins tx-medium bd-b" style="padding-top: 20px !important; padding-bottom: 20px !important;">
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                     <div class="avatar avatar-md mg-r-15">
                         <img src="https://yt3.ggpht.com/a/AATXAJz2FUkWeS8_N25NHO_TJ4n7ivKlEX7eE2mbiWP9tQ=s900-c-k-c0x00ffffff-no-rj" class="rounded-circle" alt="">
                     </div>
                     <div class="media-body">
+<<<<<<< HEAD
                         <p class="tx-15 tx-poppins tx-semibold mg-b-0 crop-text-1 text-left">Ghannie Wijaya</p>
                         <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 text-left">5116100048</p>
                     </div>
@@ -24,6 +29,15 @@
                 <a href="../lainnya/pengaturan.php" class="dropdown-item-its tx-poppins tx-medium"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="settings-sharp" class="tx-18"></ion-icon></span></div> Pengaturan Web</a>
                 <a href="#chgRoleUser" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="people-sharp" class="tx-18"></ion-icon></span></div> Ganti peran</a>
                 <a href="page-signin.html" class="dropdown-item-its tx-poppins tx-medium"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="log-out-sharp" class="tx-18"></ion-icon></span></div> Keluar</a>
+=======
+                        <p class="tx-15 tx-poppins tx-semibold mg-b-0 crop-text-1">Ghannie Wijaya</p>
+                        <p class="tx-13 tx-normal tx-color-03 mg-b-0 crop-text-1">5116100048</p>
+                    </div>
+                </a>
+                <a href="../lainnya/pengaturan.php" class="dropdown-item-its tx-poppins tx-medium"><div class="mg-r-10 d-flex align-items-center justify-content-center"><ion-icon name="settings-outline" class="tx-22"></ion-icon></div> Pengaturan Web</a>
+                <a href="#chgRoleUser" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><ion-icon name="people-outline" class="tx-22"></ion-icon></div> Ganti peran</a>
+                <a href="page-signin.html" class="dropdown-item-its tx-poppins tx-medium"><div class="mg-r-10 d-flex align-items-center justify-content-center"><ion-icon name="log-out-outline" class="tx-22"></ion-icon></div> Keluar</a>
+>>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
             </div>
         </div>
     </div>
