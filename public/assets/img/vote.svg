@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.535" y1="-0.48" x2="0.806" y2="1.239" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.304" y1="1" x2="0.59" y2="0.354" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4d4d4"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.349" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#676767"/>
+      <stop offset="1" stop-color="#434343"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.325" y1="0.968" x2="0.59" y2="0.354" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1878f2"/>
+      <stop offset="1" stop-color="#26b4ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="1" y1="-0.091" x2="0.174" y2="1.095" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#434343"/>
+    </linearGradient>
+  </defs>
+  <g id="vote" transform="translate(0 0)">
+    <g id="Group_98" data-name="Group 98">
+      <g id="Group_97" data-name="Group 97" transform="translate(0 288)">
+        <path id="Path_266" data-name="Path 266" d="M69.224,0H840.977c40.305,0,65.692,23.107,72.979,52.449l74.973,175.6H-78.182l74.427-175.6C6.862,24.205,28.919,0,69.224,0Z" transform="translate(85.078 17)" fill="url(#linear-gradient)"/>
+        <path id="Union_162" data-name="Union 162" d="M80,599.134a80,80,0,0,1-80-80V80A80,80,0,0,1,80,0h920a80,80,0,0,1,80,80V519.133a80,80,0,0,1-80,80Z" transform="translate(0 192.867)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <rect id="Rectangle_437" data-name="Rectangle 437" width="477" height="78" rx="39" transform="translate(302 355)" fill="url(#linear-gradient-3)"/>
+      <path id="Subtraction_48" data-name="Subtraction 48" d="M14116.375-3397.725h-359.024l186.969-351.638a80.126,80.126,0,0,1,13.088-18.043,79.605,79.605,0,0,1,16.92-13.328,80.355,80.355,0,0,1,40.7-11.088,79.565,79.565,0,0,1,19.007,2.3,80.3,80.3,0,0,1,18.479,7.076l138.623,73.71a79.518,79.518,0,0,1,24.543,20.169,80.039,80.039,0,0,1,8.535,12.892,80.532,80.532,0,0,1,5.868,14.183,80.583,80.583,0,0,1,3.067,15.04,80.037,80.037,0,0,1,.133,15.461,79.483,79.483,0,0,1-9.067,30.445l-107.84,202.818Z" transform="translate(-13403.363 3791.822)" fill="url(#linear-gradient-4)"/>
+      <path id="Union_173" data-name="Union 173" d="M13911.579-3434.427a52.96,52.96,0,0,1-31.291-20.612l-103.9-143a53.184,53.184,0,0,1,11.765-74.281,53.18,53.18,0,0,1,74.281,11.765l61.27,84.331,161.187-221.855a53.176,53.176,0,0,1,74.277-11.765,53.18,53.18,0,0,1,11.765,74.281l-108.052,148.719c-.011.014-.021.032-.031.046l-95.835,131.9a53.1,53.1,0,0,1-43.064,21.924A53.007,53.007,0,0,1,13911.579-3434.427Z" transform="translate(-13433.664 4395.617)" fill="url(#linear-gradient-5)"/>
+    </g>
+    <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  </g>
+</svg>

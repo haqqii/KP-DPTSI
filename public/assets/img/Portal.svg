@@ -1,0 +1,27 @@
+<svg id="Portal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.39" y2="0.437" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce48"/>
+      <stop offset="1" stop-color="#fb8b02"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.407" y1="0.263" x2="1.162" y2="-0.625" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#135a80"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.214" y1="0.424" x2="1.573" y2="-0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#22a1fb"/>
+      <stop offset="1" stop-color="#11517e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.163" y1="0.574" x2="2.867" y2="0.092" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#108ee8"/>
+      <stop offset="1" stop-color="#084774"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_331" data-name="Group 331">
+    <path id="Union_766" data-name="Union 766" d="M9819-12198v-932a144,144,0,0,1,144-144h89v0h241.5c175.345,0,317.5,142.154,317.5,317.5s-142.154,317.506-317.5,317.506h-93.171c-81.418.767-147.828,67.239-148.324,148.838h0V-12342a144,144,0,0,1-144,144Z" transform="translate(-9675 13276)" fill="url(#linear-gradient)"/>
+    <path id="Intersection_101" data-name="Intersection 101" d="M8683.754-15708v-817.841c104.222-93.568,329.317-117.326,463.211-5.477,89.65,74.891,221.311,43,322.147-.115a318.909,318.909,0,0,1,6.646,64.932c0,175.355-142.154,317.506-317.5,317.506h-93.171c-81.418.767-147.828,67.24-148.325,148.839h0v148.157a144,144,0,0,1-144,144Z" transform="translate(-8539.758 16785.996)" fill="url(#linear-gradient-2)"/>
+    <path id="Intersection_102" data-name="Intersection 102" d="M8683.754-15708v-736.353c213.14-62.107,299.192,66.4,349.384,136.228,38.6,53.7,135.966,126.227,245.4,135.555a316.5,316.5,0,0,1-120.278,23.575h-93.171c-81.418.767-147.828,67.24-148.325,148.839h0v148.157a144,144,0,0,1-144,144Z" transform="translate(-8539.758 16785.996)" fill="url(#linear-gradient-3)"/>
+    <path id="Intersection_103" data-name="Intersection 103" d="M8683.754-15708v-695.866c111.268,60.875,119.5,148.79,127.736,273.952,6.369,96.813,55.191,213.928,105.268,257.068v20.847a144,144,0,0,1-144,144Z" transform="translate(-8539.758 16785.996)" fill="url(#linear-gradient-4)"/>
+  </g>
+  <rect id="Rectangle_1134" data-name="Rectangle 1134" width="1080" height="1080" fill="none"/>
+</svg>

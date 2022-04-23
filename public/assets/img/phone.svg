@@ -1,0 +1,17 @@
+<svg id="phone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.092" y2="0.953" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.816" x2="0.078" y2="1.029" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c89ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_320" data-name="Group 320">
+    <path id="Path_424" data-name="Path 424" d="M-391,20324.2c-2.555-84.109,119.9-207.7,213.378-218.2s238.094,196.164,233.6,247.938-130.888,118.053-138.069,127.719-34.16,22.732-11.261,98.854,240.834,287.559,296.249,304.947,81.184,13.8,109.951-15.518,78.332-119.852,126.542-133.219,238.619,146.209,245.405,226.291-192.232,218.211-211.982,218.6-383.959-43.779-592.5-296.154S-388.445,20408.307-391,20324.2Z" transform="translate(393.039 -20103.615)" fill="url(#linear-gradient)"/>
+    <path id="Union_762" data-name="Union 762" d="M456.129-19472.686a81.058,81.058,0,0,1,6-114.471l89.641-80.713L522.838-19700c-33.5-37.207-13.231-96.744,36.016-105.77l233.252-42.773c46.9-8.6,86.4,35.264,72.943,81.012l-66.918,227.5c-14.128,48.035-75.455,61.975-108.959,24.768l-28.934-32.137-89.638,80.715a80.765,80.765,0,0,1-54.207,20.818A80.845,80.845,0,0,1,456.129-19472.686Z" transform="translate(104.689 19985.867)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

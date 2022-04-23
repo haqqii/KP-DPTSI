@@ -1,0 +1,16 @@
+<svg id="photo-profile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.821" y1="0.046" x2="0.145" y2="0.906" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_52" data-name="Group 52" transform="translate(2 2)">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="538" cy="538" rx="538" ry="538" fill="url(#linear-gradient)"/>
+    <g id="Group_141" data-name="Group 141" transform="translate(108.781 24.922)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="81.473" cy="81.473" r="81.473" transform="translate(185.798 197.654)" fill="#fff"/>
+      <path id="Union_228" data-name="Union 228" d="M198.884,349.449c-25.119,0-39.116-29.026-23.474-48.681L404.536,12.85a30,30,0,0,1,46.948,0L680.611,300.768c15.642,19.655,1.645,48.681-23.474,48.681Zm-82.875,0h0ZM116.011,349.445Zm-84.493,0a29.582,29.582,0,0,1-8.465-1.215,28.188,28.188,0,0,1-7.287-3.365,29.435,29.435,0,0,1-13.226-26.6,28.154,28.154,0,0,1,1.715-7.842,29.565,29.565,0,0,1,4.139-7.483L165.1,95.9a28.682,28.682,0,0,1,10.49-8.624,29.2,29.2,0,0,1,25.268,0,28.675,28.675,0,0,1,10.49,8.624l31.48,41.594L116.773,298.675a41.77,41.77,0,0,0-.763,50.768v0Z" transform="translate(84.39 398.371)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

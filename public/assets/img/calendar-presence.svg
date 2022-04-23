@@ -1,0 +1,30 @@
+<svg id="calendar-presence" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080.001" height="1080" viewBox="0 0 1080.001 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.295" x2="0.5" y2="1.248" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="red"/>
+      <stop offset="1" stop-color="#ae0202"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.024" y1="0.504" x2="0.589" y2="0.459" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#434343"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.024" y1="0.496" x2="0.914" y2="0.467" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#676767"/>
+      <stop offset="1" stop-color="#a2a2a2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_94" data-name="Group 94">
+    <path id="Union_163" data-name="Union 163" d="M10284-2348v-222a80,80,0,0,1,80-80h920a80,80,0,0,1,80,80v222Z" transform="translate(-10284 2650)" fill="url(#linear-gradient)"/>
+    <path id="Union_164" data-name="Union 164" d="M10364-1872a80,80,0,0,1-80-80v-698h1080v698a80,80,0,0,1-80,80Z" transform="translate(-10284 2952)" fill="url(#linear-gradient-2)"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(-10.209 372.978)">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="432.536" height="162.491" rx="81.246" transform="matrix(0.588, 0.809, -0.809, 0.588, 348.638, 184.241)" fill="url(#linear-gradient-3)"/>
+      <path id="Union_34" data-name="Union 34" d="M33.5,575.784A81.231,81.231,0,0,1,15.522,462.3L161.935,260.78l.119-.164L327.066,33.5a81.246,81.246,0,0,1,131.458,95.51L146.981,557.81A81.232,81.232,0,0,1,33.5,575.784Z" transform="translate(409.192 6.365)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <rect id="Rectangle_411" data-name="Rectangle 411" width="437" height="103" rx="51.5" transform="translate(322 100)" fill="url(#linear-gradient-2)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

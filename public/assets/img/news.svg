@@ -1,0 +1,22 @@
+<svg id="news" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.897" y1="-0.779" x2="0.405" y2="0.847" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.368" y1="0.45" x2="0.801" y2="1.243" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#22a1fb"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_329" data-name="Group 329">
+    <path id="Union_792" data-name="Union 792" d="M-14239-18075v-812h120a100,100,0,0,1,100,100v607a105,105,0,0,1-105,105Z" transform="translate(15097 19153)" fill="url(#linear-gradient)"/>
+    <path id="Intersection_100" data-name="Intersection 100" d="M-13342-17811h-41v-812h41v708.092c.29,52.014,39.187,95.408,89.321,102.8A105.619,105.619,0,0,1-13268-17811Z" transform="translate(14240.998 18889)" fill="rgba(0,0,0,0.18)"/>
+    <path id="Union_791" data-name="Union 791" d="M-13372-17811v-103.91c.317,56.941,46.907,103.555,103.854,103.906v0Zm-767,0a100,100,0,0,1-100-100v-876a100,100,0,0,1,100-100h667a100,100,0,0,1,100,100v976Z" transform="translate(14241 18889)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_1527" data-name="Rectangle 1527" width="309" height="236" rx="57" transform="translate(162 151)" fill="#fff"/>
+    <rect id="Rectangle_1528" data-name="Rectangle 1528" width="553" height="82" rx="41" transform="translate(162 475)" fill="#f2f2f2"/>
+    <rect id="Rectangle_1529" data-name="Rectangle 1529" width="553" height="82" rx="41" transform="translate(162 630)" fill="#f2f2f2"/>
+    <rect id="Rectangle_1530" data-name="Rectangle 1530" width="195" height="82" rx="41" transform="translate(162 785)" fill="#f2f2f2"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

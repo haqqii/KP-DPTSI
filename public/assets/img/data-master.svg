@@ -1,0 +1,38 @@
+<svg id="data-master" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.538" x2="0.403" y2="0.954" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#acacac"/>
+      <stop offset="1" stop-color="#8a8a8a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.104" x2="0.716" y2="1.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9b9b9b"/>
+      <stop offset="1" stop-color="#575757"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.163" y1="0.401" x2="0.564" y2="1.106" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-0.047" y1="0.275" x2="1" y2="1.404" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c89ff"/>
+      <stop offset="1" stop-color="#0067ac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" y1="0.709" x2="0.902" y2="1.647" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4d4d4"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-0.217" y1="-0.327" x2="1" y2="1.404" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.015" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_60" data-name="Group 60">
+    <path id="Union_92" data-name="Union 92" d="M0,349.457V155.613C0,69.671,177.295,0,396,0S792,69.671,792,155.613V349.457c0,85.941-177.3,155.613-396,155.613S0,435.4,0,349.457Z" transform="translate(143.998 574.93)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_91" data-name="Ellipse 91" cx="396" cy="156.535" rx="396" ry="156.535" transform="translate(144 574.93)" fill="url(#linear-gradient-2)"/>
+    <path id="Union_92-2" data-name="Union 92" d="M0,349.457V155.613C0,69.672,177.295,0,396,0S792,69.672,792,155.613V349.457c0,85.941-177.3,155.613-396,155.613S0,435.4,0,349.457Z" transform="translate(143.998 287.465)" fill="url(#linear-gradient-3)"/>
+    <ellipse id="Ellipse_91-2" data-name="Ellipse 91" cx="396" cy="156.535" rx="396" ry="156.535" transform="translate(144 287.465)" fill="url(#linear-gradient-4)"/>
+    <path id="Union_92-3" data-name="Union 92" d="M0,349.458V155.613C0,69.671,177.295,0,396,0S792,69.671,792,155.613V349.458c0,85.941-177.3,155.612-396,155.612S0,435.4,0,349.458Z" transform="translate(143.998)" fill="url(#linear-gradient-5)"/>
+    <ellipse id="Ellipse_91-3" data-name="Ellipse 91" cx="396" cy="156.535" rx="396" ry="156.535" transform="translate(144)" fill="url(#linear-gradient-6)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg id="app-gdrive" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.78" y1="0.114" x2="-0.259" y2="1.382" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f2ef"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_1087" data-name="Rectangle 1087" width="1080" height="1080" fill="none"/>
+  <g id="Group_275" data-name="Group 275">
+    <path id="Union_499" data-name="Union 499" d="M21470.4-7574.734a221.162,221.162,0,0,1-68.641-68.626C21353.211-7705.57,21319-7855.243,21319-8030s34.211-324.429,82.762-386.639a221.159,221.159,0,0,1,68.625-68.616c62.227-48.539,211.887-82.747,386.615-82.747,174.758,0,324.434,34.213,386.643,82.766a221.183,221.183,0,0,1,68.6,68.6c48.553,62.21,82.764,211.884,82.764,386.639s-34.211,324.428-82.764,386.639a221.176,221.176,0,0,1-68.611,68.607C22181.41-7526.207,22031.746-7492,21857-7492,21682.289-7492,21532.639-7526.2,21470.4-7574.734Z" transform="translate(-21317 8570)" fill="url(#linear-gradient)"/>
+    <g id="Google_Drive_icon__2020_" data-name="Google_Drive_icon_(2020)" transform="translate(240 271.959)">
+      <path id="Path_348" data-name="Path 348" d="M45.361,148.189l26.46,45.7a62.407,62.407,0,0,0,22.68,22.68L189,53H0A62.263,62.263,0,0,0,8.247,83.928Z" transform="translate(0 311.261)" fill="#0066da"/>
+      <path id="Path_349" data-name="Path 349" d="M300,164.774,205.5,1.2a62.407,62.407,0,0,0-22.68,22.68L8.247,326.286A62.268,62.268,0,0,0,0,357.214H189Z" transform="translate(0 7.047)" fill="#00ac47"/>
+      <path id="Path_350" data-name="Path 350" d="M154.313,216.574a62.407,62.407,0,0,0,22.68-22.68l11-18.9,52.577-91.065A62.263,62.263,0,0,0,248.815,53H59.8l40.22,79.038Z" transform="translate(351.185 311.261)" fill="#ea4335"/>
+      <path id="Path_351" data-name="Path 351" d="M124.4,171.821,218.9,8.247A60.416,60.416,0,0,0,187.976,0H60.828A63.985,63.985,0,0,0,29.9,8.247Z" transform="translate(175.598 0)" fill="#00832d"/>
+      <path id="Path_352" data-name="Path 352" d="M330.245,53H108.252L13.75,216.574a60.416,60.416,0,0,0,30.928,8.247H393.819a63.985,63.985,0,0,0,30.928-8.247Z" transform="translate(80.752 311.261)" fill="#2684fc"/>
+      <path id="Path_353" data-name="Path 353" d="M248.117,175.083,160.832,23.88A62.407,62.407,0,0,0,138.152,1.2L43.65,164.774l111,192.44h188.66a62.263,62.263,0,0,0-8.247-30.928Z" transform="translate(256.35 7.047)" fill="#ffba00"/>
+    </g>
+  </g>
+</svg>

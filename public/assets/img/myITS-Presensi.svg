@@ -1,0 +1,22 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="278" y="278" width="800" height="800" rx="130" fill="#1A759F"/>
+<rect x="140" y="140" width="800" height="800" rx="130" fill="#34A0A4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M940 278V810C940 881.797 881.797 940 810 940H278V408C278 336.203 336.203 278 408 278H940Z" fill="black" fill-opacity="0.07"/>
+<rect x="2" y="2" width="800" height="800" rx="130" fill="#76C893"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M802 140V672C802 743.797 743.797 802 672 802H140V270C140 198.203 198.203 140 270 140H802Z" fill="black" fill-opacity="0.06"/>
+<g filter="url(#filter0_f_101_191)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M609.763 179.603C634.191 196.44 640.345 229.892 623.508 254.32L385.138 600.155C376.433 612.786 363.286 620.53 349.241 622.738C328.111 628.06 304.972 620.114 291.88 601.12L183.369 443.687C166.532 419.259 172.685 385.808 197.113 368.97C221.541 352.133 254.993 358.287 271.83 382.715L338.177 478.974L535.047 193.347C551.884 168.919 585.335 162.766 609.763 179.603Z" fill="black" fill-opacity="0.22"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M598.105 151.28C621.984 167.739 628 200.44 611.541 224.32L378.523 562.392C370.007 574.746 357.145 582.319 343.406 584.471C322.756 589.662 300.149 581.894 287.356 563.332L181.28 409.434C164.821 385.555 170.837 352.854 194.716 336.395C218.596 319.936 251.296 325.951 267.756 349.831L332.615 443.931L525.066 164.716C541.525 140.837 574.225 134.821 598.105 151.28Z" fill="url(#paint0_linear_101_191)"/>
+<defs>
+<filter id="filter0_f_101_191" x="113.875" y="110.109" width="579.125" height="574.25" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="30" result="effect1_foregroundBlur_101_191"/>
+</filter>
+<linearGradient id="paint0_linear_101_191" x1="431" y1="586" x2="286.997" y2="315.502" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F2F2F2"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>
