@@ -21,28 +21,18 @@
         <div class="container pd-x-0" id="content">
 
           <!-- Untuk judul halaman. Hanya dipakai jika diperlukan -->
-<<<<<<< HEAD
           <div class="d-flex align-items-center justify-content-between mg-b-10 mg-sm-b-10 mg-lg-b-10">
-=======
-          <div class="d-flex align-items-center justify-content-between mg-b-20 mg-sm-b-25 mg-lg-b-25">
->>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
             <div class="d-flex align-items-center justify-content-start">
               <h4 class="tx-poppins tx-medium mg-b-0">Rekapan Absensi</h4>
             </div>
           </div>
           <div class="form-group">
-<<<<<<< HEAD
             <div class="d-flex justify-content-end">  
                 <div class="tx-poppins tx-medium mg-r-10 mg-t-5">
                     <p>Periode</p>
                 </div>
                 <div class="ml-10">
                     <select name="bulan"  class="form-select" id="bulan" >
-=======
-            <div class="row row-sm justify-content-end">  
-                <div class="col-md-2">
-                    <select name="bulan"  class="form-control" id="bulan" >
->>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                         <option value="M">Januari</option>
                         <option value="F">Februari</option>
                         <option value="F">Maret</option>
@@ -57,13 +47,8 @@
                         <option value="F">Desember</option>
                     </select>
                 </div>
-<<<<<<< HEAD
                 <div>
                     <select name="nivel" class="form-select mr-2" id="nivel">
-=======
-                <div class="col-md-1">
-                    <select name="nivel" class="form-control" id="nivel">
->>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                         <option value="inicial">2001</option>
                         <option value="primaria">2002</option>
                         <option value="secundaria">2003</option>
@@ -89,13 +74,8 @@
                         <option value="secundaria">2023</option>
                     </select>
                 </div>
-<<<<<<< HEAD
                 <a href="{{ url('/absensi') }}">
                     <button type="submit" class="btn btn-primary ml-2">Tampilkan</button>
-=======
-                <a href="{{ url('/absensi') }}" 
-                    id="btn-simpan" class="btn btn-custom btn-lg tx-white col-md-1 float-end">Tampilkan</button>
->>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
                 </a>  
             </div>  
 		  </div>

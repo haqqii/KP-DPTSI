@@ -26,11 +26,7 @@
 <meta name="author" content="ThemePixels">
 
 <!-- Favicon -->
-<<<<<<< HEAD
 <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/logo.png">
-=======
-<link rel="shortcut icon" type="image/x-icon" href="../../assets/img/Portal.png">
->>>>>>> 243fa92c9da30ee5f3b6b22931c394c9950f12a6
 
 <title>Beranda &bullet; Worktime</title>
 
