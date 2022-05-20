@@ -71,3 +71,17 @@
     let year = d.getFullYear();
     document.getElementById("thn").innerHTML = year;
 </script>
+<script>
+    function addtable(){
+        var table = document.getElementById("mytable");
+        var myinput = document.getElementById("myinput");
+
+        var row = table.insertRow(-1);
+        var cell1 =row.insertCell(0);
+        var cell2 = row.insertCell(1);
+
+        cell1.innerHTML ="<button></button> <button></button> <button></button>"
+        cell2.innerHTML =myinput.value + "<button>option</button>";
+        myinput.value = "";
+    }
+</script> 
