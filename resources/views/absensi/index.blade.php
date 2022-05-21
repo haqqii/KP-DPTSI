@@ -117,6 +117,20 @@
           border: none;
           border-radius: none;
       }
+
+      .btn-its-cancel {
+          background-color: #E66F42;
+          border-color: #E66F42;
+          color: #fff; }
+          .btn-its-cancel:hover, .btn-its-cancel:focus {
+              background-color: #E66F42;
+              border-color: #E66F42;
+              color: #ffffff;
+              box-shadow: 0 0.cancel125rem 0.625rem rgb(222, 166, 144); }
+          .btn-its-cancel:active, .btn-its-cancel.active {
+              background-color: #D7663B; 
+              border-color: #D7663B; }     
+      
 		</style>
   </head>
   <body class="mn-ht-100v d-flex flex-column">
@@ -190,7 +204,13 @@
                               <td>
                                 <div class="pd-l-13 pd-r-13 align-items-center">
                                   membuat ppt 
-                                  <button type="button" class="btn-option float-end"><i class="iconify" data-icon="iwwa:option" style="color:#9199A7"></i></button>
+                                  <button type="button" class="btn-option float-end" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="iconify" data-icon="iwwa:option" style="color:#9199A7"></i></button>
+                                  <div class="dropdown-menu">
+                                    <a href="#delegasi" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify tx-12" data-icon="heroicons-solid:user-group" style="color:#1878F2"></i></div> Delegasi</a>
+                                    <a href="#subrk" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify tx-12" data-icon="akar-icons:chevron-up" style="color:#1878F2"></i></div> Jadikan Sub RK</a>
+                                    <a href="#Ubah" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify" data-icon="bxs:edit" style="color:#1878F2"></i></div>Ubah</a>
+                                    <a href="#Hapus" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify" data-icon="fluent:delete-28-filled" style="color:#1878F2"></i></div> Hapus</a>
+                                  </div>
                                 </div>
                               </td>
                            </tr> 
@@ -220,140 +240,126 @@
               </div>
             </div>
             <p class="tx-poppins mg-b-0">Klik <a href="{{ url('/rekapan') }}" class="link-primary">disini</a> untuk melihat daftar lengkap rekap absen harian Anda.</p>
-            
+         
           </div><!-- row -->
         </div><!-- container -->
       </div>
     </div>
+    
+
+    <!-- Modal Section delegasi -->
+    <div class="modal fade effect-scale" id="delegasi" role="dialog" aria-labelledby="delegasiLabel" aria-modal="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
+                    <h5 class="tx-poppins tx-medium mg-b-0">Delegasi Rencana Kerja</h5>
+                    <button type="button" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center" data-dismiss="modal"><ion-icon name="close" class="mg-y-2 tx-18"></ion-icon></button>
+                </div>
+                <div class="modal-body">
+                    <p>Delegasikan rencana kerja ... kepada yang lain dengan mengetikan namanya di bawah ini:</p>
+                    <div class="form-group form-floating">
+                        <select class="form-select" id="select_user" required>
+                            <option value="">Pilih salah satu</option>
+                            <option value="../beranda/index.php">Mahasiswa</option>
+                            <option value="../beranda/admin-index.php">Administrator Direktorat Pengembangan Teknologi dan Sistem Informasi</option>
+                            <option value="../beranda/kadep-index.php">Kadep Departemen Teknik Informatika</option>
+                            <option value="../beranda/ditmawa-w-index.php">Verifikator Wirausaha Direktorat Kemahasiswaan</option>
+                        </select>
+                        <label for="select_user">Pilih Bawahan</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
+                    <input class="btn btn-its-3 tx-poppins tx-medium" type="button" id="goBtn" value="Delegasi">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Section SubRK -->
+    <div class="modal fade effect-scale" id="subrk" role="dialog" aria-labelledby="subrkLabel" aria-modal="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
+                    <h5 class="tx-poppins tx-medium mg-b-0">Jadikan SUB Rencana Kerja</h5>
+                    <button type="button" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center" data-dismiss="modal"><ion-icon name="close" class="mg-y-2 tx-18"></ion-icon></button>
+                </div>
+                <div class="modal-body">
+                    <p>Jadikan rencana kerja ... sebagai Sub dari rencana kerja:</p>
+                    <div class="form-group form-floating">
+                        <select class="form-select" id="select_user" required>
+                            <option value="">Pilih salah satu</option>
+                            <option value="../beranda/index.php">Mahasiswa</option>
+                            <option value="../beranda/admin-index.php">Administrator Direktorat Pengembangan Teknologi dan Sistem Informasi</option>
+                            <option value="../beranda/kadep-index.php">Kadep Departemen Teknik Informatika</option>
+                            <option value="../beranda/ditmawa-w-index.php">Verifikator Wirausaha Direktorat Kemahasiswaan</option>
+                        </select>
+                        <label for="select_user">Pilih Bawahan</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
+                    <input class="btn btn-its-3 tx-poppins tx-medium" type="button" id="goBtn" value="Jadikan SUB">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Section Ubah -->
+    <div class="modal fade effect-scale" id="Ubah" role="dialog" aria-labelledby="UbahLabel" aria-modal="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
+                    <h5 class="tx-poppins tx-medium mg-b-0">Ubah Rencana Kerja</h5>
+                    <button type="button" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center" data-dismiss="modal"><ion-icon name="close" class="mg-y-2 tx-18"></ion-icon></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ubah rencana kerja dengan menyunting informasi teks pada kotak isian berikut:</p>
+                    <div class="form-group form-floating">
+                        <select class="form-select" id="select_user" required>
+                            <option value="">Pilih salah satu</option>
+                            <option value="../beranda/index.php">Mahasiswa</option>
+                            <option value="../beranda/admin-index.php">Administrator Direktorat Pengembangan Teknologi dan Sistem Informasi</option>
+                            <option value="../beranda/kadep-index.php">Kadep Departemen Teknik Informatika</option>
+                            <option value="../beranda/ditmawa-w-index.php">Verifikator Wirausaha Direktorat Kemahasiswaan</option>
+                        </select>
+                        <label for="select_user">Pilih Bawahan</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
+                    <input class="btn btn-its-3 tx-poppins tx-medium" type="button" id="goBtn" value="Ubah">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Section Hapus -->
+    <div class="modal fade effect-scale" id="Hapus" role="dialog" aria-labelledby="HapusLabel" aria-modal="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
+                    <h5 class="tx-poppins tx-medium mg-b-0">Hapus Rencana Kerja</h5>
+                    <button type="button" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center" data-dismiss="modal"><ion-icon name="close" class="mg-y-2 tx-18"></ion-icon></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tekan tombol hapus untuk menghapus rencana kerja ... Dan tidak akan ditampilkan lagi oleh sistem</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
+                    <input class="btn btn-its-cancel tx-poppins tx-medium" type="button" id="goBtn" value="Hapus">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     @extends('partial.footer')			
     
     @extends('partial.script')
     <script src="https://unpkg.com/dropzone"></script>
 		<script src="https://unpkg.com/cropperjs"></script>
-    <script>
-      function uploadbtn(){
-        $('[href="#upload"]').tab('show');
-      }
-      function homebtn(){
-        $('[href="#home"]').tab('show');
-      }
-      function tabbtn(){
-        $('[href="#home"]').tab('show');
-      }
-    </script>
-    <script>
-      $('a[data-toggle="tab"]').on('hide.bs.tab', function (e) {
-        var $old_tab = $($(e.target).attr("href"));
-        var $new_tab = $($(e.relatedTarget).attr("href"));
-
-        if($new_tab.index() < $old_tab.index()){
-          $old_tab.css('position', 'relative').css("right", "0").show();
-          $old_tab.animate({"right":"-100%"}, 300, function () {
-            $old_tab.css("right", 0).removeAttr("style");
-          });
-        }
-        else {
-          $old_tab.css('position', 'relative').css("left", "0").show();
-          $old_tab.animate({"left":"-100%"}, 300, function () {
-            $old_tab.css("left", 0).removeAttr("style");
-          });
-        }
-      });
-
-      $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
-        var $new_tab = $($(e.target).attr("href"));
-        var $old_tab = $($(e.relatedTarget).attr("href"));
-
-        if($new_tab.index() > $old_tab.index()){
-          $new_tab.css('position', 'relative').css("right", "-2500px");
-          $new_tab.animate({"right":"0"}, 500);
-        }
-        else {
-          $new_tab.css('position', 'relative').css("left", "-2500px");
-          $new_tab.animate({"left":"0"}, 500);
-        }
-      });
-
-      $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        // your code on active tab shown
-      });
-    </script>
-    <script>
-    $( document ).ready(function() {
-      $('#upload_image').on('change', function() {
-        if(this.value == "")
-            $('#btn-select').attr("disabled", true);
-          else
-            $('#btn-select').attr("disabled", false);
-      });
-    });
-    </script>
-
-    <script>
-
-      $(document).ready(function(){
-
-        var $modal = $('#modal');
-        var image = document.getElementById('sample_image');
-        var cropper;
-
-        $('#upload_image').change(function(event){
-          var files = event.target.files;
-          var done = function(url){
-            image.src = url;
-            $modal.modal('show');
-          };
-
-          if(files && files.length > 0)
-          {
-            reader = new FileReader();
-            reader.onload = function(event)
-            {
-              done(reader.result);
-            };
-            reader.readAsDataURL(files[0]);
-          }
-        });
-
-        $modal.on('shown.bs.modal', function() {
-          cropper = new Cropper(image, {
-            aspectRatio: 1,
-            viewMode: 3,
-            preview:'.preview'
-          });
-        }).on('hidden.bs.modal', function(){
-          cropper.destroy();
-            cropper = null;
-        });
-
-        $('#crop').click(function(){
-          canvas = cropper.getCroppedCanvas({
-            width:400,
-            height:400
-          });
-
-          canvas.toBlob(function(blob){
-            url = URL.createObjectURL(blob);
-            var reader = new FileReader();
-            reader.readAsDataURL(blob);
-            reader.onloadend = function(){
-              var base64data = reader.result;
-              $.ajax({
-                url:'upload.php',
-                method:'POST',
-                data:{image:base64data},
-                success:function(data)
-                {
-                  $modal.modal('hide');
-                  $('#uploaded_image').attr('src', data);
-                }
-              });
-            };
-          });
-        });
-        
-      });
-    </script>
-
+    
+    
   </body>
 </html>
