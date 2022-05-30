@@ -10,6 +10,12 @@
       .table-td{
         text-align: center;
       } 
+      tr td{
+          border-right: 1px solid rgba(72, 94, 144, 0.16);
+      }
+      tr th{
+        border-right: 1px solid rgba(72, 94, 144, 0.16);
+      }
   </style>
   <body class="mn-ht-100v d-flex flex-column">
     @extends('partial.navbar')

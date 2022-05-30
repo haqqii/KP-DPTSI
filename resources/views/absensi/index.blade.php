@@ -192,7 +192,7 @@
                                 </th> 
                             </table>
                         </div> -->
-                        <table class="table-bordered tx-poppins" style="width: 100%;">
+                        <table id="mytable" class="table-bordered tx-poppins" style="width: 100%;">
                            <tr>
                               <td style="width: 105px; height: 42px;">
                                 <div class="pd-l-5 pd-r-5">
@@ -225,7 +225,7 @@
                           </form>
                         </div>  
                       </div>
-                      <a href="https://google.com" class="btn btn-custom btn-lg tx-white tx-poppins tx-18" style="width: 161px; height: 43px;"> Mulai Bekerja </a>
+                      <a href="#klik" class="btn btn-custom btn-lg tx-white tx-poppins tx-18"  onclick="changebtn()" id="mybtn" value="Mulai Bekerja" style="width: 161px; height: 43px;"> Mulai Bekerja </a>
                     </div>
                   </div>
                     <div class="col-sm-6 px-20 pd-t-20 mg-b-10 bd-0">
@@ -248,7 +248,7 @@
     
 
     <!-- Modal Section delegasi -->
-    <div class="modal fade effect-scale" id="delegasi" role="dialog" aria-labelledby="delegasiLabel" aria-modal="true">
+    <div class="modal fade effect-scale" id="delegasi" style="margin-top :100px;" role="dialog" aria-labelledby="delegasiLabel" aria-modal="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
@@ -277,7 +277,7 @@
     </div>
 
     <!-- Modal Section SubRK -->
-    <div class="modal fade effect-scale" id="subrk" role="dialog" aria-labelledby="subrkLabel" aria-modal="true">
+    <div class="modal fade effect-scale" id="subrk" style="margin-top :100px;" role="dialog" aria-labelledby="subrkLabel" aria-modal="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
@@ -289,12 +289,8 @@
                     <div class="form-group form-floating">
                         <select class="form-select" id="select_user" required>
                             <option value="">Pilih salah satu</option>
-                            <option value="../beranda/index.php">Mahasiswa</option>
-                            <option value="../beranda/admin-index.php">Administrator Direktorat Pengembangan Teknologi dan Sistem Informasi</option>
-                            <option value="../beranda/kadep-index.php">Kadep Departemen Teknik Informatika</option>
-                            <option value="../beranda/ditmawa-w-index.php">Verifikator Wirausaha Direktorat Kemahasiswaan</option>
                         </select>
-                        <label for="select_user">Pilih Bawahan</label>
+                        <label for="select_user">Pilih rencana kerja induk</label>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -306,7 +302,7 @@
     </div>
 
     <!-- Modal Section Ubah -->
-    <div class="modal fade effect-scale" id="Ubah" role="dialog" aria-labelledby="UbahLabel" aria-modal="true">
+    <div class="modal fade effect-scale" id="Ubah" style="margin-top :100px;" role="dialog" aria-labelledby="UbahLabel" aria-modal="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
@@ -316,14 +312,9 @@
                 <div class="modal-body">
                     <p>Ubah rencana kerja dengan menyunting informasi teks pada kotak isian berikut:</p>
                     <div class="form-group form-floating">
-                        <select class="form-select" id="select_user" required>
-                            <option value="">Pilih salah satu</option>
-                            <option value="../beranda/index.php">Mahasiswa</option>
-                            <option value="../beranda/admin-index.php">Administrator Direktorat Pengembangan Teknologi dan Sistem Informasi</option>
-                            <option value="../beranda/kadep-index.php">Kadep Departemen Teknik Informatika</option>
-                            <option value="../beranda/ditmawa-w-index.php">Verifikator Wirausaha Direktorat Kemahasiswaan</option>
-                        </select>
-                        <label for="select_user">Pilih Bawahan</label>
+                        <form class="new_item">
+                            <input id="myinput" class="form-control mx-auto tx-poppins" style="width: 100%; height: 42px;" type="text"  maxlength="50" name="server_input" id="text_field" placeholder="Koreksi ETS"/>
+                        </form>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -335,7 +326,7 @@
     </div>
 
     <!-- Modal Section Hapus -->
-    <div class="modal fade effect-scale" id="Hapus" role="dialog" aria-labelledby="HapusLabel" aria-modal="true">
+    <div class="modal fade effect-scale" id="Hapus" style="margin-top :100px;" role="dialog" aria-labelledby="HapusLabel" aria-modal="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header bd-0 d-flex align-items-center pd-b-0">

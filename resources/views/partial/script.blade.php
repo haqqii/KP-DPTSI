@@ -15,27 +15,27 @@
 
 <!-- Script base -->
 <script>
-    $(function(){
+    $(function() {
         'use strict'
 
-        $('.off-canvas-menu').on('click', function(e){
+        $('.off-canvas-menu').on('click', function(e) {
             e.preventDefault();
             var target = $(this).attr('href');
             $(target).addClass('show');
         });
 
-        $('.off-canvas .close').on('click', function(e){
+        $('.off-canvas .close').on('click', function(e) {
             e.preventDefault();
             $(this).closest('.off-canvas').removeClass('show');
         })
 
-        $(document).on('click touchstart', function(e){
+        $(document).on('click touchstart', function(e) {
             e.stopPropagation();
-            if(!$(e.target).closest('.off-canvas-menu').length) {
-            var offCanvas = $(e.target).closest('.off-canvas').length;
-            if(!offCanvas) {
-                $('.off-canvas.show').removeClass('show');
-            }
+            if (!$(e.target).closest('.off-canvas-menu').length) {
+                var offCanvas = $(e.target).closest('.off-canvas').length;
+                if (!offCanvas) {
+                    $('.off-canvas.show').removeClass('show');
+                }
             }
         });
     });
@@ -46,8 +46,8 @@
 </script>
 
 <script>
-    $(document).on('click', '.allow-focus', function (e) {
-    e.stopPropagation();
+    $(document).on('click', '.allow-focus', function(e) {
+        e.stopPropagation();
     });
 </script>
 
@@ -64,7 +64,7 @@
     var menu = document.getElementById("menu");
 
     goBtn.onclick = function() {
-    window.location = menu.value;
+        window.location = menu.value;
     }
 </script>
 
@@ -74,17 +74,101 @@
     let year = d.getFullYear();
     document.getElementById("thn").innerHTML = year;
 </script>
+
 <script>
-    function addtable(){
+    var id = 1;
+
+    function addtable() {
+        id += 0;
+        action = "";
+
+
         var table = document.getElementById("mytable");
         var myinput = document.getElementById("myinput");
 
         var row = table.insertRow(-1);
-        var cell1 =row.insertCell(0);
+        var cell1 = row.insertCell(0);
         var cell2 = row.insertCell(1);
 
-        cell1.innerHTML ="<button></button> <button></button> <button></button>"
-        cell2.innerHTML =myinput.value + "<button>option</button>";
+        cell1.innerHTML = ('<tr><td style="width: 105px; height: 42px;">' +
+            '<div class="pd-l-5 pd-r-5 mg-r-5 mx-auto">' +
+            '<button type="button" id="run' + id + '"onclick="run()" class="btn-run mg-l-2"><i class="iconify" id="irun' + id + '" data-icon="ic:outline-directions-run" style="color:#1878F2"></i></button>' +
+            '<button type="button" id="ok" onclick="ok()" class="btn-ok mg-l-2"><i class="iconify" data-icon="bi:check-lg" style="color:#AEB84C"></i></button>' +
+            '<button type="button" id="cancel" onclick="cancel()" class="btn-cancel mg-l-2"><i class="iconify" data-icon="carbon:close" style="color:#E66F42"></i></button>' +
+            '</div>' +
+            '</td>'
+
+        )
+        cell2.innerHTML = ('<td>' +
+            '<div class="pd-l-13 pd-r-13 align-items-center">' +
+            myinput.value +
+            '<button type="button" class="btn-option float-end" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="iconify" data-icon="iwwa:option" style="color:#9199A7"></i></button>' +
+            '<div class="dropdown-menu">' +
+            '<a href="#delegasi" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify tx-12" data-icon="heroicons-solid:user-group" style="color:#1878F2"></i></div> Delegasi</a>' +
+            '<a href="#subrk" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify tx-12" data-icon="akar-icons:chevron-up" style="color:#1878F2"></i></div> Jadikan Sub RK</a>' +
+            '<a href="#Ubah" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify" data-icon="bxs:edit" style="color:#1878F2"></i></div>Ubah</a>' +
+            '<a href="#Hapus" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-animation="effect-scale"><div class="mg-r-10 d-flex align-items-center justify-content-center"><i class="iconify" data-icon="fluent:delete-28-filled" style="color:#1878F2"></i></div> Hapus</a>' +
+            '</div>' +
+            '</div>' +
+            '</td>' +
+            '</tr>')
         myinput.value = "";
     }
-</script> 
+
+    //BTN ACTION
+  
+    function run() {
+
+        if(action ==""){
+
+        var btn = document.getElementById("run" + id).style.backgroundColor = "#1878F2";
+        var btn1 = document.getElementById("irun" + id).style.color = "#FFFFFF"
+        action = "ok";
+        alert(action);
+        }
+    }
+
+
+        function ok() {
+            if(action == "ok"){
+
+            var ok = document.getElementById("ok").style.backgroundColor = "#1878F2";
+
+            var btn = document.getElementById("run" + id).style.backgroundColor = "#FFFFFF";
+            var btn1 = document.getElementById("irun" + id).style.color = "#1878F2"
+            // var btn1 = document.getElementById("irun"+id).style.color = black;
+            }
+        }
+    
+
+</script>
+<!-- <script>
+    $( document ).ready(function() {
+  $( ".js-click" ).click(function() {
+    $( ".js-click" ).css('background', '#E66F42');
+  });
+});
+</script> -->
+
+<script>
+    function changebtn() {
+
+        var btn = document.getElementById("mybtn")
+
+        if (btn.value == "Mulai Bekerja") {
+            btn.value = "Akhiri Bekerja";
+            btn.innerHTML = "Akhiri Bekerja";
+            btn.style.backgroundColor = "#E66F42";
+
+        } else {
+            btn.value = "Mulai Bekerja";
+            btn.innerHTML = "Mulai Bekerja";
+            btn.style.backgroundColor = "#1878F2";
+        }
+
+    }
+</script>
+
+<script>
+
+</script>
