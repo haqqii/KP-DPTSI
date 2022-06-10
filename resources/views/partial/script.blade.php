@@ -76,10 +76,10 @@
 </script>
 
 <script>
-    var id = 1;
+    var id = 0;
 
     function addtable() {
-        id += 0;
+        id += 1;
         action = "";
 
 
@@ -90,11 +90,11 @@
         var cell1 = row.insertCell(0);
         var cell2 = row.insertCell(1);
 
-        cell1.innerHTML = ('<tr><td style="width: 105px; height: 42px;">' +
-            '<div class="pd-l-5 pd-r-5 mg-r-5 mx-auto">' +
-            '<button type="button" id="run' + id + '"onclick="run()" class="btn-run mg-l-2"><i class="iconify" id="irun' + id + '" data-icon="ic:outline-directions-run" style="color:#1878F2"></i></button>' +
-            '<button type="button" id="ok" onclick="ok()" class="btn-ok mg-l-2"><i class="iconify" data-icon="bi:check-lg" style="color:#AEB84C"></i></button>' +
-            '<button type="button" id="cancel" onclick="cancel()" class="btn-cancel mg-l-2"><i class="iconify" data-icon="carbon:close" style="color:#E66F42"></i></button>' +
+        cell1.innerHTML = ('<tr><td style="min-width: 105px; min-height: 42px;">' +
+            '<div class="pd-l-4 pd-r-4 mg-t-4 mg-b-4">' +
+            '<button type="button" id="cancel' + id + '" onclick="cancel()" class="btn-cancel mg-l-3"><i class="iconify" id="icancel' + id + '" data-icon="mdi:inbox-full" style="color:#535353"></i></button>' +
+            '<button type="button" id="run' + id + '" onclick="run()" class="btn-run mg-l-3"><i class="iconify" id="irun' + id + '" data-icon="ic:outline-directions-run" style="color:#1878F2"></i></button>' +
+            '<button type="button" id="ok' + id + '" onclick="ok()" class="btn-ok mg-l-3"><i class="iconify" id="iok' + id + '" data-icon="bi:check-lg" style="color:#AEB84C"></i></button>' +
             '</div>' +
             '</td>'
 
@@ -116,39 +116,55 @@
     }
 
     //BTN ACTION
-  
+
     function run() {
 
-        if(action ==""){
+        if (action == "") {
 
-        var btn = document.getElementById("run" + id).style.backgroundColor = "#1878F2";
-        var btn1 = document.getElementById("irun" + id).style.color = "#FFFFFF"
-        action = "ok";
-        alert(action);
+            var btn = document.getElementById("run" + id).style.backgroundColor = "#1878F2";
+            var btn1 = document.getElementById("irun" + id).style.color = "#FFFFFF";
+            action = "ok";
+            alert(action);
         }
     }
 
 
-        function ok() {
-            if(action == "ok"){
+    function ok() {
 
-            var ok = document.getElementById("ok").style.backgroundColor = "#1878F2";
+        if (action == "ok") {
+
+            var ok = document.getElementById("ok" + id).style.backgroundColor = "#AEB84C";
+            var ok1 = document.getElementById("iok" + id).style.color = "#FFFFFF";
 
             var btn = document.getElementById("run" + id).style.backgroundColor = "#FFFFFF";
-            var btn1 = document.getElementById("irun" + id).style.color = "#1878F2"
-            // var btn1 = document.getElementById("irun"+id).style.color = black;
-            }
-        }
-    
+            var btn1 = document.getElementById("irun" + id).style.color = "#1878F2";
 
+           
+            // action = "cancel";
+
+        }
+
+    }
+
+    function cancel() {
+
+        if (action != "") {
+            
+            action = "cancel";
+            alert(id);
+
+            document.getElementById("cancel" + id).style.backgroundColor = "#535353";
+            document.getElementById("icancel" + id).style.color = "#FFFFFF";
+
+            document.getElementById("ok" + id).style.backgroundColor = "#FFFFFF";
+            document.getElementById("iok" + id).style.color = "#AEB84C"; 
+            
+            var btn = document.getElementById("run" + id).style.backgroundColor = "#FFFFFF";
+            var btn1 = document.getElementById("irun" + id).style.color = "#1878F2";
+
+        }
+    }
 </script>
-<!-- <script>
-    $( document ).ready(function() {
-  $( ".js-click" ).click(function() {
-    $( ".js-click" ).css('background', '#E66F42');
-  });
-});
-</script> -->
 
 <script>
     function changebtn() {
@@ -167,8 +183,4 @@
         }
 
     }
-</script>
-
-<script>
-
 </script>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    @extends('partial.head')
+    @include('partial.head')
   </head>
   <style>
       .thead {
@@ -18,7 +18,7 @@
       }
   </style>
   <body class="mn-ht-100v d-flex flex-column">
-    @extends('partial.navbar')
+    @include('partial.navbar')
 
     <div class="content pd-0" style="position: relative">
       <!-- Konten dihapus -->
@@ -37,7 +37,7 @@
                 <div class="tx-poppins tx-medium mg-r-10 mg-t-5">
                     <p>Periode</p>
                 </div>
-                <div class="ml-10">
+                <div class="ml-10 mg-r-5">
                     <select name="bulan"  class="form-select" id="bulan" >
                         <option value="M">Januari</option>
                         <option value="F">Februari</option>
@@ -53,7 +53,7 @@
                         <option value="F">Desember</option>
                     </select>
                 </div>
-                <div>
+                <div div class="ml-10 mg-r-5">
                     <select name="nivel" class="form-select mr-2" id="nivel">
                         <option value="inicial">2001</option>
                         <option value="primaria">2002</option>
@@ -81,7 +81,7 @@
                     </select>
                 </div>
                 <a href="{{ url('/absensi') }}">
-                    <button type="submit" class="btn btn-primary ml-2">Tampilkan</button>
+                    <button type="submit" class="btn btn-primary mg-l-5 mg-r-15">Tampilkan</button>
                 </a>  
             </div>  
 		  </div>

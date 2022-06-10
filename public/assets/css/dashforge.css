@@ -41065,3 +41065,19 @@ a.bg-twitter:hover, a.bg-twitter:focus, button.bg-twitter:hover, button.bg-twitt
   background-color: #1878F2;
 }
 
+.add_btn {
+  position: absolute;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  height: 40px;
+  width: 80px;
+  background-color: #1878F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid #43d6b0;
+}
+
+
