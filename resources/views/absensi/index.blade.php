@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  {{-- <link rel="stylesheet" href="https://unpkg.com/dropzone/dist/dropzone.css" />
+  <link rel="stylesheet" href="https://unpkg.com/dropzone/dist/dropzone.css" />
   <link href="https://unpkg.com/cropperjs/dist/cropper.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> --}}
@@ -231,9 +231,8 @@
                 <div class="col-sm-6 px-20 pd-t-20 mg-b-10 bd-0">
                   <iframe class="mg-md-l-20" style=" width: 500px; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
                   <div class="d-flex justify-content-start">
-                    <a href="https://google.com" style="white-space: nowrap;" class="btn btn-outline-primary tx-medium mg-l-20">
-                      <ion-icon name="navigate"></ion-icon> Perbaiki Lokasi Otomatis
-                    </a>
+                    <a href="https://google.com" class="btn btn-lg btn-outline-primary tx-medium mg-l-20">  Perbaiki Lokasi Otomatis </a>
+                    
                     <p class="tx-poppins tx-9 mg-r-40 mg-md-l-40 mg-b-0 text-end">Berdasarkan lokasi pada peta, Anda terlacak sedang berda di luar kantor. Apabila pelacakan tidak akurat, silahkan klik tombol Perbaiki Lokasi Otomatis.</p>
                   </div>
                 </div>

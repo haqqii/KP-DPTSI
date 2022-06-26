@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-{{-- <link rel="stylesheet" href="https://unpkg.com/dropzone/dist/dropzone.css" />
+  {{-- <link rel="stylesheet" href="https://unpkg.com/dropzone/dist/dropzone.css" />
   <link href="https://unpkg.com/cropperjs/dist/cropper.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> --}}
@@ -16,7 +16,7 @@
       display: -webkit-box;
       -webkit-box-orient: vertical;
     }
-    
+
     .overlay {
       position: absolute;
       bottom: 10px;
@@ -131,7 +131,6 @@
       background-color: #D7663B;
       border-color: #D7663B;
     }
-
   </style>
 </head>
 
@@ -170,14 +169,14 @@
               <div class="row">
                 <div class="col-xl-6">
                   <div class="row">
-                    <div class="col-xl-6 col-sm-6 col-12 mb-4 mg-b-10">
+                    <div class="col-xl-6 col-sm-6 col-md-6 col-12 mb-4 mg-b-10">
                       <a href="https://google.com" target="_blank">
                         <div class="card ">
                           <div class="card-body bg-custom">
                             <div class="d-flex justify-content-between px-md-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/dirawat.svg" class="wd-60 mg-r-30" alt="">
-                                <div class="media-body crop-text-1">
+                                <div class="media-body crop-text-1 mg-l-30">
                                   <p class="tx-poppins tx-13 text-center tx-color-01 mg-b-0 ">Dirawat</p>
                                   <p class="tx-poppins tx-13 text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
                                   <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
@@ -195,7 +194,7 @@
                             <div class="d-flex justify-content-between px-md-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/isoman.svg" class="wd-60 mg-r-25" alt="">
-                                <div class="media-body crop-text-1">
+                                <div class="media-body crop-text-1 mg-l-20">
                                   <p class="tx-poppins tx-13 text-center tx-color-01 mg-b-0 crop-text-1">Isolasi Mandiri</p>
                                   <p class="tx-poppins tx-13 text-center tx-color-01 mg-b-0 crop-text-1">17</p>
                                   <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
@@ -213,7 +212,7 @@
                             <div class="d-flex justify-content-between px-md-1">
                               <div class="media d-flex align-items-center">
                                 <img src="../../assets/img/Konfirmasi Aktif.svg" class="wd-60 mg-r-25" alt="">
-                                <div class="media-body crop-text-1">
+                                <div class="media-body crop-text-1 mg-l-10">
                                   <p class="tx-poppins tx-13 text-center tx-color-01 mg-b-0 crop-text-1">Konfirmasi Aktif</p>
                                   <p class="tx-poppins tx-13 text-center tx-color-01 mg-b-0 crop-text-1">17</p>
                                   <p class="tx-poppins tx-5  text-center tx-color-01 mg-b-0 crop-text-1">(0)</p>
@@ -246,7 +245,7 @@
                 </div>
                 <div class="col-xl-6">
                   <div class="row h-100">
-                    <div class="col-xl-6 col-sm-6 col-12 mb-4 mg-b-10">
+                    <div class="col-xl-6 col-sm-6 col-md-6 col-12 mb-4 mg-b-10">
                       <a href="https://google.com" target="_blank">
                         <div class="card h-100">
                           <div class="card-body align-items-center d-flex justify-content-center bg-custom">
@@ -371,12 +370,16 @@
                   </div>
                 </div>
                 <div class="col-sm-6 px-20 pd-t-20 mg-b-10 bd-0">
-                  <iframe class="mg-md-l-20" style=" width: 500px; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-                  <div class="d-flex justify-content-start">
-                    <a href="https://google.com" style="white-space: nowrap;" class="btn btn-outline-primary tx-medium mg-l-20">
-                      <ion-icon name="navigate"></ion-icon> Perbaiki Lokasi Otomatis
-                    </a>
-                    <p class="tx-poppins tx-9 mg-r-40 mg-md-l-40 mg-b-0 text-end">Berdasarkan lokasi pada peta, Anda terlacak sedang berda di luar kantor. Apabila pelacakan tidak akurat, silahkan klik tombol Perbaiki Lokasi Otomatis.</p>
+                  <div class="container">
+                    <iframe class="mg-md-l-20 mg-b-10" style=" width: 500px; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                    <div class="float-left pd-r-50">
+                      <a href="#lokasi" style="white-space: nowrap;" data-toggle="modal" data-animation="effect-scale" class="btn btn-outline-primary tx-poppins tx-12 btn-block mg-l-20" style="width: 160; height: 30;">
+                        <ion-icon name="navigate"></ion-icon> Perbaiki Lokasi Otomatis
+                      </a>
+                    </div>
+                    <div class="pd-l-20 pd-r-10">
+                      <p class="tx-poppins tx-9 mg-b-0 text-end">Berdasarkan lokasi pada peta, Anda terlacak sedang berda di luar kantor. Apabila pelacakan tidak akurat, silahkan klik tombol Perbaiki Lokasi Otomatis.</p>
+                    </div>
                   </div>
                 </div>
                 <br>
@@ -386,6 +389,7 @@
           <p class="tx-poppins mg-b-0">Klik <a href="{{ url('/rekapan') }}" class="link-primary">disini</a> untuk melihat daftar lengkap rekap absen harian Anda.</p>
         </div><!-- row -->
 
+        <!-- Card Kuisioner -->
         <!-- <div class="card col-12 mg-b-20 mg-sm-b-20 mg-lg-b-30">
             <div class="card-header bd-0 pd-md-y-20 justify-content-start align-items-center">
                 <h5 class="tx-poppins tx-medium mg-b-0">Quick Survey</h5>
@@ -539,6 +543,27 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
           <input class="btn btn-its-cancel tx-poppins tx-medium" type="button" id="goBtn" value="Hapus">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Section lokasi benar -->
+  <div class="modal fade effect-scale" id="lokasi" style="margin-top :100px;" role="dialog" aria-labelledby="lokasiLabel" aria-modal="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
+          <h5 class="tx-poppins tx-medium mg-b-0">Lokasi sudah benar?</h5>
+          <button type="button" class="btn btn-icon btn-its-custom-1 tx-poppins tx-medium rounded-its-50p d-flex align-items-center" data-dismiss="modal">
+            <ion-icon name="close" class="mg-y-2 tx-18"></ion-icon>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Anda terdeteksi akan bekerja di luar kantor. Bila deteksi ini tidak akurat, mohon cek kembali posisi Anda di peta</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Mengecek lokasi kembali</button>
+          <input class="btn btn-its-3 tx-poppins tx-medium" type="button" id="goBtn" value="Sudah Benar">
         </div>
       </div>
     </div>
